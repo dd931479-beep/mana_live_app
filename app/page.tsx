@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from "react";
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isCounting, setIsCounting] = useState(false);
-  const [seconds, setSeconds] = useState(5); // カウントダウンは5秒
+  const [seconds, setSeconds] = useState(4); // カウントダウンは5秒
   const [isMuted, setIsMuted] = useState(true);
   const [isReady, setIsReady] = useState(false);
 
